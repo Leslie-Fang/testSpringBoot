@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: org.intel.dcg.testAPI
+Main-Class: org.intel.dcg.Application
 Class-Path: lib/spring-boot-1.5.10.RELEASE.jar |
  | lib/spring-context-4.3.14.RELEASE.jar |
  | lib/spring-core-4.3.14.RELEASE.jar |

@@ -1,4 +1,4 @@
-package org.intel.dcg.hello;
+package org.intel.dcg.domain;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
