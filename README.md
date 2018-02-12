@@ -13,9 +13,17 @@ http://longliqiang88.github.io/2015/08/18/Spring%E5%AD%A6%E4%B9%A04%EF%BC%9ASpri
 1.domain：这一层是用来管理javaBean实体对象的；
 2.dao:数据访问层，对数据库进行访问；
 3.service：业务逻辑层，通过调用dao层来对数据库进行访问；
-4.web：数据显示层；
+4.web：数据显示层；提供RESTful API
 web发出请求---domain接收控制数据转向(可以返回也可以进入service)---service验证数据正确性或者是否符合业务要求---dao存入，读出，依次返回
 
 ## 部署
 将maven打包后的jar文件和依赖的jar文件直接拷贝到服务器上
 运行java -jar *.jar 执行我们的应用就可以了
+
+
+next Step:
+1. 重构dao,domain,web,service的作用
+
+2. 添加对数据库的访问
+
+3. 添加sapui5

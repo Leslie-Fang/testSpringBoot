@@ -1,10 +1,9 @@
-package org.intel.dcg.domain;
-import org.intel.dcg.dao.Topic;
+package org.intel.dcg.web;
+import org.intel.dcg.domain.Topic;
 import org.intel.dcg.service.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

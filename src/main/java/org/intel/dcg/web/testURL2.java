@@ -1,4 +1,4 @@
-package org.intel.dcg.domain;
+package org.intel.dcg.web;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;

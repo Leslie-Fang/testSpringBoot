@@ -1,4 +1,4 @@
-package org.intel.dcg.dao;
+package org.intel.dcg.domain;
 
 public class Topic {
     private int id;

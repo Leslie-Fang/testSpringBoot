@@ -1,6 +1,6 @@
 package org.intel.dcg.service;
 
-import org.intel.dcg.dao.Topic;
+import org.intel.dcg.domain.Topic;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
