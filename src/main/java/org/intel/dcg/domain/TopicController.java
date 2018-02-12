@@ -20,7 +20,6 @@ public class TopicController {
     }
     @RequestMapping(value="/{topicID}",method = RequestMethod.GET)
     public Topic getTopicbyID(@PathVariable int topicID) {
-
         return new Topic(topicID,"leslie","hhh");
     }
 }

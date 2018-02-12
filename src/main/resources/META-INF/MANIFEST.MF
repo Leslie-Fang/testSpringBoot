@@ -31,6 +31,11 @@ Class-Path: lib/spring-boot-1.5.10.RELEASE.jar |
  | lib/logback-classic-1.1.11.jar |
  | lib/logback-core-1.1.11.jar |
  | lib/slf4j-api-1.7.25.jar |
- | lib/snakeyaml-1.17.jar
+ | lib/snakeyaml-1.17.jar |
+ | lib/spring-boot-starter-thymeleaf-1.5.10.RELEASE.jar |
+ | lib/thymeleaf-2.1.6.RELEASE.jar |
+ | lib/thymeleaf-layout-dialect-1.4.0.jar |
+ | lib/thymeleaf-spring4-2.1.6.RELEASE.jar |
+ | lib/unbescape-1.1.0.RELEASE.jar
 
 
