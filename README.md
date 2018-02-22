@@ -1,5 +1,5 @@
 ## 介绍
-用Spring boot搭建一个基本应用
+用Spring boot搭建一个基本应用实现用户的注册以及登录功能
 * 前端： 用基本的JQuery Ajax+HTML+CSS
 * 后端： 用springboot的jdbc template访问mysql数据库
 
