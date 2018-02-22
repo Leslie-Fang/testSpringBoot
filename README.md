@@ -27,10 +27,10 @@ http://www.iteye.com/topic/53526
 将maven打包后的jar文件和依赖的jar文件直接拷贝到服务器上
 运行java -jar *.jar 执行我们的应用就可以了
 
-next Step:
+## 本项目下一步计划:
 重构项目目录，实现用户注册和登录的功能
 
-下一步单独构建的项目：
+## 下一步单独构建的项目：
 项目1：使用sapui5前端，如何构建项目结构
 项目2： Spring boot使用JPA访问数据库
 使用JPA：http://www.aidansu.com/2017/spring-boot-mysql-jpa/
