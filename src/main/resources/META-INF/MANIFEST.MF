@@ -36,6 +36,16 @@ Class-Path: lib/spring-boot-1.5.10.RELEASE.jar |
  | lib/thymeleaf-2.1.6.RELEASE.jar |
  | lib/thymeleaf-layout-dialect-1.4.0.jar |
  | lib/thymeleaf-spring4-2.1.6.RELEASE.jar |
+ | lib/spring-boot-starter-jdbc-1.5.10.RELEASE.jar |
+ | lib/mysql-connector-java-6.0.6.jar |
+ | lib/tomcat-jdbc-8.5.27.jar |
+ | lib/tomcat-juli-8.5.27.jar |
+ | lib/spring-tx-4.3.14.RELEASE.jar |
+ | lib/spring-jdbc-4.3.14.RELEASE.jar |
+ | lib/spring-expression-4.3.14.RELEASE.jar |
+ | lib/ognl-3.0.8.jar |
+ | lib/javassist-3.21.0-GA.jar |
+ | lib/groovy-2.4.13.jar |
  | lib/unbescape-1.1.0.RELEASE.jar
 
 

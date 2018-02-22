@@ -16,13 +16,21 @@ public class TopicController {
 
     @RequestMapping("")
     public List<Topic> getTopic() {
-        return topicService.getAllTopics();
+        //return topicService.getAllTopics();
+        return topicService.getAllTopics2();
     }
     @RequestMapping(value="/{topicID}",method = RequestMethod.GET)
     public Topic getTopicbyID(@PathVariable int topicID) {
         return topicService.getTopic(topicID);
     }
-
+//Use postman to send post request
+//Request header: Content-Type:application/json
+//Request Body: json format data. For example:
+//{
+//    "id": 3,
+//        "name": "lovemango",
+//        "description": "hhh3"
+//}
     @RequestMapping(value = "", method = RequestMethod.POST)
     public void addTopic(@RequestBody Topic topic){
         topicService.addTopic(topic);
