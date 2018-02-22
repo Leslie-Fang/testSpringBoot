@@ -1,7 +1,7 @@
 ## 介绍
 用Spring boot搭建一个基本应用
-前端： 用基本的JQuery Ajax+HTML+CSS
-后端： 用springboot的jdbc template访问mysql数据库
+* 前端： 用基本的JQuery Ajax+HTML+CSS
+* 后端： 用springboot的jdbc template访问mysql数据库
 
 Spring 框架两个核心概念
 1. 依赖注入
