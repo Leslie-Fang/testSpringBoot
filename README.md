@@ -32,8 +32,8 @@ http://www.iteye.com/topic/53526
 重构项目目录，实现用户注册和登录的功能
 
 ## 下一步单独构建的项目：
-项目1：使用sapui5前端，如何构建项目结构
-项目2： Spring boot使用JPA访问数据库
+* 项目1：使用sapui5前端，如何构建项目结构
+* 项目2： Spring boot使用JPA访问数据库
 使用JPA：http://www.aidansu.com/2017/spring-boot-mysql-jpa/
-项目3： 集成sapui5以及odata访问数据库
+* 项目3： 集成sapui5以及odata访问数据库
 
