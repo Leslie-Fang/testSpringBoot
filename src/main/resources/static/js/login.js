@@ -7,12 +7,15 @@ $(document).ready(function(){
         alert($("#password").val());
         var username=$("#username").val();
         var password=$("#password").val();
-        var data = {"username":username,"password":password};
-//        $.ajax({
-//          type: 'POST',
-//          url: '/login',
-//          data: data,
-//          success: success,
-//        });
+        var data = {"id":4, "name":username,"password":password};
+        $.ajax({
+          type: 'POST',
+          url: '/login',
+          contentType:'application/json',
+          data: JSON.stringify(data),
+          dataType: 'json'
+        }).done(function(){
+            alert("Post Success!");
+        });
     });
 });
